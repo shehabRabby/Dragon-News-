@@ -8,17 +8,17 @@ const Login = () => {
   const { signIn } = use(AuthContext);
   const location = useLocation();
   const navigate = useNavigate();
-  console.log(location);
+  // console.log(location);
 
   const handleLogin = (event) => {
     event.preventDefault();
       const email = event.target.email.value;
       const password = event.target.password.value;
-      console.log(email,password)
+      // console.log(email,password)
     
      signIn(email, password)
        .then((result) => {
-         console.log("Logged in user:", result.user);
+        //  console.log("Logged in user:", result.user);
          navigate(`${location.state ? location.state : "/"}`)
        })
        .catch((error) => {

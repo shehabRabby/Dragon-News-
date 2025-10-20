@@ -1,55 +1,50 @@
-# <img src="assets/logo.png">
 
-Dragoon News is a responsive front-end web application build with react that delivers real-time news articles on a variety of topics, complete with user authentication for personalized access. Built with modern web technologies, the app ensures a seamless user experience across devices and secure login functionality using firebase authentication.let's build the project together. 😎
 
-### Base URL
 
-The base URL for the API is:
-[https://openapi.programming-hero.com/api](https://openapi.programming-hero.com/api)
+LIVE LINK : https://dragon-news-firebase-d7ca5.web.app
 
-### Endpoints
+🧑‍💼 1. Professional (for portfolio / report / LinkedIn)
+📰 Dragon News – Modern React News Platform
 
-1. **Get All News Categories**
+Dragon News is a responsive web application built using React.js that delivers real-time news articles across multiple categories via the Programming Hero Open API. The platform features a clean, modern interface with seamless navigation and secure user authentication powered by Firebase.
 
-   - **URL**: `/news/categories`
-   - **Full URL**: https://openapi.programming-hero.com/api/news/categories
-   - **Method**: `GET`
-   - **Description**: Retrieves a list of all available news categories.
+The project emphasizes performance, accessibility, and maintainability — integrating Tailwind CSS and DaisyUI for styling, React Router for navigation, and React Icons for UI enhancement.
 
-2. **Get All News in a Category**
+🔑 Core Features
 
-   - **URL Format**: `/news/category/{category_id}`
-   - **Full URL Example**: https://openapi.programming-hero.com/api/news/category/01
-   - **Method**: `GET`
-   - **Description**: Retrieves all news articles within a specified category.
-   - **Path Parameter**:
-     - `category_id` (string): The unique ID of the category.
+Real-time data fetching from the Programming Hero News API
+Category-based news browsing
+Detailed article view with author info and publish date
+Firebase Authentication (Login & Register)
+Fully responsive layout for all screen sizes
+Modern UI/UX with Tailwind CSS and DaisyUI components
 
-3. **Get News Detail by ID**
-   - **URL Format**: `/news/{news_id}`
-   - **Full URL Example**: https://openapi.programming-hero.com/api/news/0282e0e58a5c404fbd15261f11c2ab6a
-   - **Method**: `GET`
-   - **Description**: Retrieves detailed information about a specific news article.
-   - **Path Parameter**:
-     - `news_id` (string): The unique ID of the news article.
+🧠 Tech Stack
 
-## Layouts & Design
+Frontend: React.js, JavaScript, HTML5, CSS3
+Styling: Tailwind CSS, DaisyUI
+Routing: React Router DOM
+Auth: Firebase Authentication
+Icons: React Icons
+API Source: Programming Hero News API
 
-There will be three layour for the project. watch below designs to understand layout structure/
+A modern, scalable, and visually appealing news platform built for a smooth reading experience and secure user interaction.
 
-### News Layout
+💬 2. Chill & Readable (for README.md or GitHub)
+🗞️ Dragon News
 
- <img src="https://i.ibb.co.com/sJFwsTBZ/home-layout.png"/>
+Dragon News is a React-based responsive news website that pulls real-time articles from the Programming Hero API.
+Users can explore categories, read full news details, and securely log in or sign up with Firebase Authentication.
+Built with Tailwind CSS + DaisyUI, it’s fast, mobile-friendly, and has clean modern vibes. ⚡
 
-### News-Details Layout
+🚀 Features
+Live news by category
+Detailed article pages
+Firebase login/register
+Responsive layouts
+React Router navigation
+React Icons for visuals
 
- <img src="https://i.ibb.co.com/4ZJ3wBfq/news-details-layout.png"/>
+🛠 Tech Used
 
-### Auth Layout
-
-<table>
- <tr>
-   <td> <img  src="https://i.ibb.co.com/BVtvwgbN/auth-layout-login.png"/></td>
-   <td> <img src="https://i.ibb.co.com/27Rmt7C5/auth-layout-register.png"/></td>
- </tr> 
-</table>
+React • JavaScript • Tailwind CSS • DaisyUI • Firebase • React Router • React Icons
